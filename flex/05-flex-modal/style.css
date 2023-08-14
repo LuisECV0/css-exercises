@@ -14,12 +14,28 @@ body {
   align-items: center;
   justify-content: center;
 }
-
+/*!se añadio la clase .header*/
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+/*!se añadio la clase .text*/
+.text{
+  margin-bottom: 16px;
+}
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+/*!se añadio*/
+  display: flex;
+  gap: 16px;
+  padding: 16px;
 }
 
 .icon {
@@ -33,6 +49,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  /*!se añadio*/
+  flex-shrink: 0;
 }
 
 .close-button {
